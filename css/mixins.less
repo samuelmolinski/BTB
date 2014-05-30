@@ -1,0 +1,49 @@
+// rotate elements
+.rotate (@deg : 0deg)
+{
+	-webkit-transform:rotate(@deg);
+		-ms-transform:rotate(@deg);
+			transform:rotate(@deg);
+}
+
+// columns per row
+.column-count(@columns : 2)
+{
+	-moz-column-count:@columns; /* Firefox */
+	-webkit-column-count:@columns; /* Safari,Chrome, Opera */
+		column-count:@columns;
+}
+
+// columns margin
+.column-gap(@gap :20px)
+{
+	-moz-column-count:@gap; /* Firefox */
+	-webkit-column-count:@gap; /* Safari,Chrome, Opera */
+		column-count:@gap;
+}
+
+// columns break avoid
+.column-break-avoid()
+{
+	-webkit-column-break-inside: avoid;
+	   -moz-column-break-inside: avoid;
+			column-break-inside: avoid;
+}
+
+// animate
+.animate()
+{
+	-webkit-transition: all 0.3s ease-in-out;
+	   -moz-transition: all 0.3s ease-in-out;
+		 -o-transition: all 0.3s ease-in-out;
+		-ms-transition: all 0.3s ease-in-out;
+		    transition: all 0.3s ease-in-out;
+}
+
+// opacity
+.opacity(@opacity : 1)
+{
+	@ieopacity : @opacity * 100;
+	opacity : @opacity;
+	filter: ~"alpha(opacity=@{ieopacity})";
+}

@@ -1,0 +1,86 @@
+@import "../variables.less";
+
+// remove menu arrows
+#megaMenu ul.megaMenu li.menu-item.ss-nav-menu-reg > li.megaReg-with-sub > a::after,
+#megaMenu ul.megaMenu li.menu-item.mega-with-sub > a::after,
+#megaMenu ul.megaMenu li.menu-item.ss-nav-menu-mega > a::after,
+#megaMenu ul.megaMenu li.menu-item.ss-nav-menu-reg li.megaReg-with-sub > span.um-anchoremulator::after,
+#megaMenu ul.megaMenu li.menu-item.mega-with-sub > span.um-anchoremulator::after,
+#megaMenu ul.megaMenu li.menu-item.ss-nav-menu-mega > span.um-anchoremulator::after{
+  display:none;
+  border:none !important;
+}
+
+// remove right space
+#megaMenu ul.megaMenu li.menu-item.ss-nav-menu-reg ul.sub-menu li.menu-item.megaReg-with-sub > a,
+#megaMenu ul.megaMenu li.menu-item.ss-nav-menu-reg ul.sub-menu li.menu-item.megaReg-with-sub > span.um-anchoremulator,
+#megaMenu ul.megaMenu li.menu-item.mega-with-sub > a,
+#megaMenu ul.megaMenu li.menu-item.mega-with-sub > span.um-anchoremulator,
+#megaMenu ul.megaMenu li.menu-item.ss-nav-menu-mega > a,
+#megaMenu ul.megaMenu li.menu-item.ss-nav-menu-mega > span.um-anchoremulator{
+  padding-right:15px;  
+}
+
+
+// menu block
+#megaMenu {display:inline-block;}
+#megaMenu > li {position:relative}
+#megaMenu a {display:block;padding:0 20px !important;color:@dcolor2-light;font-size:@font-size-menu;}
+#megaMenu ul#megaUber > li:hover > a, #megaMenu ul#megaUber > li.current-menu-item > a {background-color:@dcolor2-dark;color:@white;}
+
+// menu in header assets
+.header-assets #megaMenu {line-height:normal;vertical-align: text-bottom;}
+.header-assets #megaMenu li {margin-right:40px;}
+.header-assets #megaMenu a {color:@tcolor;padding:0px;}
+.header-assets #megaMenu ul#megaUber > li:hover > a, .header-assets #megaMenu ul#megaUber > li.current-menu-item > a {background-color:transparent;color:@dcolor;}
+
+.header-assets .menu-center li {margin:0 20px;} // on header 5 style
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// every header style individual
+#menu-uber[data-header="1"] #megaMenu #megaUber li a {height:86px}
+#menu-uber[data-header="1"] #megaMenu #megaUber li a span {line-height:86px}
+#menu-uber[data-header="1"] #megaMenu {float:right}
+
+#menu-uber[data-header="2"] #megaMenu #megaUber li a {height:86px}
+#menu-uber[data-header="2"] #megaMenu #megaUber li a span {line-height:86px}
+#menu-uber[data-header="2"] #megaMenu {float:right}
+
+#menu-uber[data-header="3"] #megaMenu #megaUber li a {height:86px}
+#menu-uber[data-header="3"] #megaMenu #megaUber li a span {line-height:86px}
+#menu-uber[data-header="3"] #megaMenu {float:right}
+
+#menu-uber[data-header="4"] #megaMenu #megaUber > li:first-child a {padding-left:0px !important}
+#menu-uber[data-header="4"] #megaMenu #megaUber li a {height:47px}
+#menu-uber[data-header="4"] #megaMenu #megaUber li a span {line-height:47px}
+
+#menu-uber[data-header="5"] #megaMenu #megaUber li a {height:47px}
+#menu-uber[data-header="5"] #megaMenu #megaUber li a span {line-height:47px}
+#menu-uber[data-header="5"] #megaMenu {position:absolute;left:50%;margin-left:-32%}
+
+#menu-uber[data-header="6"] #megaMenu #megaUber li a {height:56px}
+#menu-uber[data-header="6"] #megaMenu #megaUber li a span {line-height:56px}
+#menu-uber[data-header="6"] #megaMenu {float:right}
+#menu-uber[data-header="6"] #megaMenu #megaUber {line-height:@line-height-base - 2;} // on header 6
+#menu-uber[data-header="6"] #megaMenu #megaUber a {border-top:2px solid transparent;}// on header 6
+#menu-uber[data-header="6"] #megaMenu #megaUber > li:hover > a, #menu-uber[data-header="6"] #megaMenu #megaUber > li.current-menu-item > a {border-top:2px solid @dcolor;} // on header 6
+
+#menu-uber[data-header="7"] #megaMenu #megaUber li a {height:86px}
+#menu-uber[data-header="7"] #megaMenu #megaUber li a span {line-height:86px}
+#menu-uber[data-header="7"] #megaMenu {float:right}
+
+// submenus for all headers
+// rewrite main menu for submenu placement correct
+#menu-uber #megaMenu #megaUberu li {position:relative}
+
+// sub menu of big menu
+#megaMenu ul li.menu-item.ss-nav-menu-mega ul li.menu-item.ss-nav-menu-item-depth-1 {padding:0 !important}
+.sub-menu-1 {background-color:@white !important;border:1px solid #eeeeee !important;border-top:3px solid @dcolor-dark !important}
+#menu-uber #megaMenu #megaUber li .sub-menu-1 li a {height:35px;color:@hcolor;font-size:@font-size-base}
+#menu-uber #megaMenu #megaUber li .sub-menu-1 li a span {line-height:35px}
+
+// sub menu level 3
+#menu-uber #megaMenu #megaUber li .sub-menu-2 li a {position:relative;color:@tcolor;height:27px}
+#menu-uber #megaMenu #megaUber li .sub-menu-2 li a span {line-height: 27px}
+#menu-uber #megaMenu #megaUber li .sub-menu-2 li {background:@white}
+#menu-uber #megaMenu #megaUber li .sub-menu-2 li:hover a {background:@inner-bg-color;color:@hcolor}

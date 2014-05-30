@@ -1,0 +1,1 @@
+<?php if (!defined("ABSPATH")) die(); ?><?php require_once "archive.php"; ?>

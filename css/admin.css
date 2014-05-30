@@ -1,0 +1,16 @@
+/* Quote VC */
+
+.wpb-layout-element-button i[class*="mint-icon"], .wpb-layout-element-button #quote_slider
+{
+	background: url("../images/visual-composer/vc-icon.png") no-repeat center left;
+}
+
+.wpb-layout-element-button #quote_slider {
+	background-position: 7px center;
+}
+
+#ic-preview {
+	left: 250px;
+    position: relative;
+    top: 30px;
+}

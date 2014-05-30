@@ -1,0 +1,363 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Mint Russian\n"
+"POT-Creation-Date: 2013-11-04 11:58+0200\n"
+"PO-Revision-Date: 2013-11-04 12:06+0200\n"
+"Last-Translator: \n"
+"Language-Team: 1theme <support@1theme.com>\n"
+"Language: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;_n:1,2;_x:1,2c;_ex:1,2c\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../archive-portfolio.php:8 ../archive.php:5
+msgid "Category"
+msgstr "Категория"
+
+#: ../archive-portfolio.php:11 ../archive.php:8
+msgid "Posts Tagged"
+msgstr "Записи с тэгом"
+
+#: ../archive-portfolio.php:15 ../archive-portfolio.php:19
+#: ../archive-portfolio.php:23 ../archive.php:12 ../archive.php:16
+#: ../archive.php:20
+msgid "Archive for"
+msgstr "Архив для"
+
+#: ../archive-portfolio.php:27 ../archive.php:24
+msgid "Author Archive"
+msgstr "Архив Автора"
+
+#: ../archive-portfolio.php:31
+msgid "Portfolio"
+msgstr "Портфолио"
+
+#: ../archive.php:28
+msgid "Blog"
+msgstr "Блог"
+
+#: ../comments.php:2
+msgid "Comments"
+msgstr "Коментарии"
+
+#: ../pages/coming-soon.php:39
+msgid "Coming Soon"
+msgstr "Скоро"
+
+#: ../pages/single-author-bio.php:2
+msgid "About Author"
+msgstr "О Авторе"
+
+#: ../pages/single-author-bio.php:18
+msgid "Number of Posts"
+msgstr "Количество записей"
+
+#: ../pages/classic-post-formats/format-aside.php:37
+#: ../pages/classic-post-formats/format-audio.php:70
+#: ../pages/classic-post-formats/format-chat.php:40
+#: ../pages/classic-post-formats/format-gallery.php:70
+#: ../pages/classic-post-formats/format-link.php:40
+#: ../pages/classic-post-formats/format-quote.php:46
+#: ../pages/classic-post-formats/format-standard.php:41
+#: ../pages/classic-post-formats/format-status.php:42
+#: ../pages/classic-post-formats/format-video.php:96
+#: ../pages/pinterest-post-formats/format-aside.php:26
+#: ../pages/pinterest-post-formats/format-audio.php:51
+#: ../pages/pinterest-post-formats/format-chat.php:27
+#: ../pages/pinterest-post-formats/format-link.php:27
+#: ../pages/pinterest-post-formats/format-quote.php:32
+#: ../pages/pinterest-post-formats/format-standard.php:27
+#: ../pages/pinterest-post-formats/format-status.php:28
+#: ../pages/pinterest-post-formats/format-video.php:82
+#: ../pages/single-post-formats/format-aside.php:25
+#: ../pages/single-post-formats/format-audio.php:49
+#: ../pages/single-post-formats/format-chat.php:25
+#: ../pages/single-post-formats/format-gallery.php:62
+#: ../pages/single-post-formats/format-image.php:25
+#: ../pages/single-post-formats/format-link.php:25
+#: ../pages/single-post-formats/format-quote.php:32
+#: ../pages/single-post-formats/format-standard.php:25
+#: ../pages/single-post-formats/format-status.php:28
+#: ../pages/single-post-formats/format-video.php:79
+msgid "By"
+msgstr "От"
+
+#: ../pages/classic-post-formats/format-aside.php:41
+#: ../pages/classic-post-formats/format-audio.php:74
+#: ../pages/classic-post-formats/format-chat.php:44
+#: ../pages/classic-post-formats/format-gallery.php:74
+#: ../pages/classic-post-formats/format-link.php:44
+#: ../pages/classic-post-formats/format-quote.php:50
+#: ../pages/classic-post-formats/format-standard.php:45
+#: ../pages/classic-post-formats/format-status.php:46
+#: ../pages/classic-post-formats/format-video.php:100
+#: ../pages/grid-post-formats/format-aside.php:30
+#: ../pages/grid-post-formats/format-audio.php:58
+#: ../pages/grid-post-formats/format-chat.php:31
+#: ../pages/grid-post-formats/format-link.php:31
+#: ../pages/grid-post-formats/format-quote.php:37
+#: ../pages/grid-post-formats/format-standard.php:31
+#: ../pages/grid-post-formats/format-status.php:33
+#: ../pages/grid-post-formats/format-video.php:85
+#: ../pages/pinterest-post-formats/format-aside.php:43
+#: ../pages/pinterest-post-formats/format-audio.php:68
+#: ../pages/pinterest-post-formats/format-chat.php:44
+#: ../pages/pinterest-post-formats/format-link.php:44
+#: ../pages/pinterest-post-formats/format-quote.php:49
+#: ../pages/pinterest-post-formats/format-standard.php:44
+#: ../pages/pinterest-post-formats/format-status.php:45
+#: ../pages/pinterest-post-formats/format-video.php:99
+#: ../pages/single-post-formats/format-aside.php:29
+#: ../pages/single-post-formats/format-audio.php:53
+#: ../pages/single-post-formats/format-chat.php:29
+#: ../pages/single-post-formats/format-gallery.php:66
+#: ../pages/single-post-formats/format-image.php:29
+#: ../pages/single-post-formats/format-link.php:29
+#: ../pages/single-post-formats/format-quote.php:36
+#: ../pages/single-post-formats/format-standard.php:29
+#: ../pages/single-post-formats/format-status.php:32
+#: ../pages/single-post-formats/format-video.php:83
+msgid "No Comments"
+msgstr "Нет комментариев"
+
+#: ../pages/classic-post-formats/format-aside.php:41
+#: ../pages/classic-post-formats/format-audio.php:74
+#: ../pages/classic-post-formats/format-chat.php:44
+#: ../pages/classic-post-formats/format-gallery.php:74
+#: ../pages/classic-post-formats/format-link.php:44
+#: ../pages/classic-post-formats/format-quote.php:50
+#: ../pages/classic-post-formats/format-standard.php:45
+#: ../pages/classic-post-formats/format-status.php:46
+#: ../pages/classic-post-formats/format-video.php:100
+#: ../pages/grid-post-formats/format-aside.php:30
+#: ../pages/grid-post-formats/format-audio.php:58
+#: ../pages/grid-post-formats/format-chat.php:31
+#: ../pages/grid-post-formats/format-link.php:31
+#: ../pages/grid-post-formats/format-quote.php:37
+#: ../pages/grid-post-formats/format-standard.php:31
+#: ../pages/grid-post-formats/format-status.php:33
+#: ../pages/grid-post-formats/format-video.php:85
+#: ../pages/pinterest-post-formats/format-aside.php:43
+#: ../pages/pinterest-post-formats/format-audio.php:68
+#: ../pages/pinterest-post-formats/format-chat.php:44
+#: ../pages/pinterest-post-formats/format-link.php:44
+#: ../pages/pinterest-post-formats/format-quote.php:49
+#: ../pages/pinterest-post-formats/format-standard.php:44
+#: ../pages/pinterest-post-formats/format-status.php:45
+#: ../pages/pinterest-post-formats/format-video.php:99
+#: ../pages/single-post-formats/format-aside.php:29
+#: ../pages/single-post-formats/format-audio.php:53
+#: ../pages/single-post-formats/format-chat.php:29
+#: ../pages/single-post-formats/format-gallery.php:66
+#: ../pages/single-post-formats/format-image.php:29
+#: ../pages/single-post-formats/format-link.php:29
+#: ../pages/single-post-formats/format-quote.php:36
+#: ../pages/single-post-formats/format-standard.php:29
+#: ../pages/single-post-formats/format-status.php:32
+#: ../pages/single-post-formats/format-video.php:83
+msgid "1 Comment"
+msgstr "1 комментарий"
+
+#: ../pages/classic-post-formats/format-aside.php:41
+#: ../pages/classic-post-formats/format-audio.php:74
+#: ../pages/classic-post-formats/format-chat.php:44
+#: ../pages/classic-post-formats/format-gallery.php:74
+#: ../pages/classic-post-formats/format-link.php:44
+#: ../pages/classic-post-formats/format-quote.php:50
+#: ../pages/classic-post-formats/format-standard.php:45
+#: ../pages/classic-post-formats/format-status.php:46
+#: ../pages/classic-post-formats/format-video.php:100
+#: ../pages/grid-post-formats/format-aside.php:30
+#: ../pages/grid-post-formats/format-audio.php:58
+#: ../pages/grid-post-formats/format-chat.php:31
+#: ../pages/grid-post-formats/format-link.php:31
+#: ../pages/grid-post-formats/format-quote.php:37
+#: ../pages/grid-post-formats/format-standard.php:31
+#: ../pages/grid-post-formats/format-status.php:33
+#: ../pages/grid-post-formats/format-video.php:85
+#: ../pages/pinterest-post-formats/format-aside.php:43
+#: ../pages/pinterest-post-formats/format-audio.php:68
+#: ../pages/pinterest-post-formats/format-chat.php:44
+#: ../pages/pinterest-post-formats/format-link.php:44
+#: ../pages/pinterest-post-formats/format-quote.php:49
+#: ../pages/pinterest-post-formats/format-standard.php:44
+#: ../pages/pinterest-post-formats/format-status.php:45
+#: ../pages/pinterest-post-formats/format-video.php:99
+#: ../pages/single-post-formats/format-aside.php:29
+#: ../pages/single-post-formats/format-audio.php:53
+#: ../pages/single-post-formats/format-chat.php:29
+#: ../pages/single-post-formats/format-gallery.php:66
+#: ../pages/single-post-formats/format-image.php:29
+#: ../pages/single-post-formats/format-link.php:29
+#: ../pages/single-post-formats/format-quote.php:36
+#: ../pages/single-post-formats/format-standard.php:29
+#: ../pages/single-post-formats/format-status.php:32
+#: ../pages/single-post-formats/format-video.php:83
+msgid "% Comments"
+msgstr "% Комментариев"
+
+#: ../pages/classic-post-formats/format-aside.php:45
+#: ../pages/classic-post-formats/format-audio.php:78
+#: ../pages/classic-post-formats/format-chat.php:48
+#: ../pages/classic-post-formats/format-gallery.php:78
+#: ../pages/classic-post-formats/format-link.php:48
+#: ../pages/classic-post-formats/format-quote.php:54
+#: ../pages/classic-post-formats/format-standard.php:49
+#: ../pages/classic-post-formats/format-status.php:50
+#: ../pages/classic-post-formats/format-video.php:104
+#: ../pages/single-post-formats/format-aside.php:33
+#: ../pages/single-post-formats/format-audio.php:57
+#: ../pages/single-post-formats/format-chat.php:33
+#: ../pages/single-post-formats/format-gallery.php:70
+#: ../pages/single-post-formats/format-image.php:33
+#: ../pages/single-post-formats/format-link.php:33
+#: ../pages/single-post-formats/format-quote.php:40
+#: ../pages/single-post-formats/format-standard.php:33
+#: ../pages/single-post-formats/format-status.php:36
+#: ../pages/single-post-formats/format-video.php:87
+msgid "In"
+msgstr "В"
+
+#: ../pages/classic-post-formats/format-aside.php:56
+#: ../pages/classic-post-formats/format-audio.php:89
+#: ../pages/classic-post-formats/format-chat.php:59
+#: ../pages/classic-post-formats/format-gallery.php:89
+#: ../pages/classic-post-formats/format-link.php:59
+#: ../pages/classic-post-formats/format-quote.php:65
+#: ../pages/classic-post-formats/format-standard.php:60
+#: ../pages/classic-post-formats/format-status.php:61
+#: ../pages/classic-post-formats/format-video.php:115
+msgid "Read Ahead"
+msgstr "Читать далее"
+
+#: ../pages/grid-post-formats/format-aside.php:26
+#: ../pages/grid-post-formats/format-audio.php:54
+#: ../pages/grid-post-formats/format-chat.php:27
+#: ../pages/grid-post-formats/format-link.php:27
+#: ../pages/grid-post-formats/format-quote.php:33
+#: ../pages/grid-post-formats/format-standard.php:27
+#: ../pages/grid-post-formats/format-status.php:29
+#: ../pages/grid-post-formats/format-video.php:81
+#: ../pages/pinterest-post-formats/format-aside.php:30
+#: ../pages/pinterest-post-formats/format-audio.php:55
+#: ../pages/pinterest-post-formats/format-chat.php:31
+#: ../pages/pinterest-post-formats/format-link.php:31
+#: ../pages/pinterest-post-formats/format-quote.php:36
+#: ../pages/pinterest-post-formats/format-standard.php:31
+#: ../pages/pinterest-post-formats/format-status.php:32
+#: ../pages/pinterest-post-formats/format-video.php:86
+msgid "Posted"
+msgstr "В"
+
+#: ../pages/pinterest-post-formats/format-aside.php:47
+#: ../pages/pinterest-post-formats/format-audio.php:72
+#: ../pages/pinterest-post-formats/format-chat.php:48
+#: ../pages/pinterest-post-formats/format-link.php:48
+#: ../pages/pinterest-post-formats/format-quote.php:53
+#: ../pages/pinterest-post-formats/format-standard.php:48
+#: ../pages/pinterest-post-formats/format-status.php:49
+#: ../pages/pinterest-post-formats/format-video.php:103
+msgid "More"
+msgstr "Далее"
+
+#: ../theme/common.php:16
+msgid "Blog Sidebar"
+msgstr "Боковая панель Блога"
+
+#: ../theme/cpt-portfolio.php:11
+msgctxt "Portfolio Categories"
+msgid "Portfolio Categories"
+msgstr "Категории Портфолио"
+
+#: ../theme/cpt-portfolio.php:12
+msgctxt "Portfolio Category"
+msgid "Portfolio Category"
+msgstr "Категории Портфолио"
+
+#: ../theme/cpt-portfolio.php:29 ../theme/cpt-portfolio.php:40
+msgid "Portfolio Items"
+msgstr "Записи Портфолио"
+
+#: ../theme/cpt-portfolio.php:30
+msgid "Portfolio Item"
+msgstr "Запись Портфолио"
+
+#: ../theme/cpt-portfolio.php:31
+msgid "Add New"
+msgstr "Добавить"
+
+#: ../theme/cpt-portfolio.php:32
+msgid "Add New Portfolio Item"
+msgstr "Добавить"
+
+#: ../theme/cpt-portfolio.php:33
+msgid "Edit Portfolio Item"
+msgstr "Изменить"
+
+#: ../theme/cpt-portfolio.php:34
+msgid "New Portfolio Item"
+msgstr "Добавить"
+
+#: ../theme/cpt-portfolio.php:35
+msgid "View Portfolio Item"
+msgstr "Показать"
+
+#: ../theme/cpt-portfolio.php:36
+msgid "Search Portfolio Items"
+msgstr "Пойск"
+
+#: ../theme/cpt-portfolio.php:37
+msgid "No portfolio items found"
+msgstr "Записи Портфолио не было найдено"
+
+#: ../theme/cpt-portfolio.php:38
+msgid "No portfolio items found in Trash"
+msgstr "Записи Портфолио не было найдено в корзине"
+
+#: ../theme/cpt-portfolio.php:39
+msgid "Parent Portfolio Item:"
+msgstr "Родительская Запись"
+
+#: ../theme/functions.php:38
+msgid "Tags"
+msgstr "Теги"
+
+#: ../theme/functions.php:69
+msgid "You Might Also Like This"
+msgstr "Вам также могут понравиться эти записи"
+
+#: ../theme/metabox.php:25
+msgid "Page Settings"
+msgstr "Настройки Старницы"
+
+#: ../theme/metabox.php:63
+msgid "Background Image"
+msgstr "Задний Фон"
+
+#: ../theme/metabox.php:253
+msgid "Post Format Settings"
+msgstr "Настройки Записей"
+
+#: ../theme/prerequisites.php:28
+msgid "Theme Options"
+msgstr "Настройки Темы"
+
+#: ../theme/woocommerce.php:9 ../theme/woocommerce.php:47
+#: ../theme/woocommerce.php:52
+msgid "Shop"
+msgstr "Магазин"
+
+#: ../theme/woocommerce.php:13
+msgid "Cart"
+msgstr "Корзина"
+
+#: ../theme/woocommerce.php:17
+msgid "Checkout"
+msgstr "Контроль"

@@ -1,0 +1,2558 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+
+	<meta charset="UTF-8">
+
+	<title>Mint - Documentation</title>
+
+	<script src="assets/js/jquery.min.js"></script>
+
+	<script src="assets/js/bootstrap.min.js"></script>
+
+	<script src="assets/js/highlight.pack.js"></script>
+
+	<link rel="stylesheet" href="assets/css/flatly.css">
+
+	<link rel="stylesheet" href="assets/css/syntax/monokai_sublime.css">
+
+	<link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
+
+
+
+	<style>
+
+		body { padding-top: 70px; }
+
+		.docs-b-a{background:#313D53;color:white;margin-top:-10px;padding-top:25px;}
+
+		.navbtn {margin-top:8px;}
+
+		.nav-logo {float: left;font-size: 19px;line-height: 14px; padding: 8.5px 15px;}
+
+
+
+		.panel {border-radius:0px;}
+
+		.panel-heading {border-radius:0px;}
+
+		.list-group, .list-group-item:first-child, .list-group-item:last-child {border-radius:0;}
+
+		.list-group-item a {color:#555555;}
+
+		.list-group-striped > a:nth-child(2n+1) {background: #e8e8e8}
+
+		.list-group-subitem {display:block;margin-left:30px;}
+
+		.list-group-subitem:before {content:"—    ";}
+
+		.br0{border-radius:0;}
+
+		.br0:first-child {border-radius:0;}
+
+		.panel-heading .totoc {font-size: 13px;}
+
+		#plugins-list li, .large-ul li {margin:15px;}
+
+	</style>
+
+
+
+</head>
+
+<body>
+
+
+
+	
+
+	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+
+
+
+		<div class="container">
+
+				 <!-- Brand and toggle get grouped for better mobile display -->
+
+				  <div class="navbar-header">
+
+				    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+
+				      <span class="sr-only">Toggle navigation</span>
+
+				      <span class="icon-bar"></span>
+
+				      <span class="icon-bar"></span>
+
+				      <span class="icon-bar"></span>
+
+				    </button>
+
+				    <a class="nav-logo" href="#">
+
+				    	<img src="assets/img/logo.png" />
+
+				    </a>
+
+				  </div>
+
+
+
+				  <!-- Collect the nav links, forms, and other content for toggling -->
+
+				  <div id="nav" class="zxc collapse navbar-collapse navbar-ex1-collapse">
+
+				    <ul class="nav navbar-nav">
+
+				      <li><a href="#toc">Table of Contents</a></li>
+
+				      <li><a target="_blank" href="http://demo.1theme.com/mint/?iframe=true">Live Demo</a></li>
+
+				      <li><a target="_blank" href="http://1theme.com/themeforest/">Support Forums</a></li>
+
+				      <li><a target="_blank" href="http://themeforest.net/user/1theme/">Themeforest</a></li>
+
+				      <li><a target="_blank" href="http://1theme.com/">Our Web-Site</a></li>
+
+				      <li><a target="_blank" href="http://help.1theme.com/mint">Live Documentation</a></li>
+
+				    </ul>
+
+				  	
+
+				  	<div class="navbar-right">
+
+				  		<a href="http://themeforest.net/item/mint-responsive-multipurpose-wordpress-theme/6471912?ref=1theme" class="navbtn btn btn-danger">Purchase</a>
+
+				  	</div>
+
+			
+
+				  </div><!-- /.navbar-collapse -->
+
+		</div>
+
+	</nav>
+
+
+
+<div class="docs-b-a">
+
+	<div class="container">
+
+
+
+		<div class="box">
+
+
+
+
+
+	
+
+			<div class="row">
+
+				<div class="col-md-4">
+
+					<p>
+
+						
+
+
+
+						<strong>Design: </strong> <a href='http://themeforest.net/user/GfxPartner'>GfxPartner</a> <br>
+
+
+
+						<strong>Programming: </strong>  <a href='http://themeforest.net/user/1theme'>1theme</a> <br>
+
+						<strong>Support: </strong> <a href="http://1theme.com/forums/">1theme.com/forums/</a> <br>
+
+						<strong>Updated At: </strong> <span class="label label-danger">13 DEC 2014</span>
+
+					</p>
+
+				</div>
+
+
+
+				<div class="col-md-8">
+
+					Thank you for buying our template. We hope you'll like it as much as we liked making it. <br>
+
+					If you have any questions that are beyond the scope of this help file, please visit our support forum at 
+
+					<a href="http://1theme.com/forums/">1theme.com/forums/</a> and we'll gladly assist you. <br>
+
+					Thank you.
+
+
+
+				</div>
+
+			</div>
+
+
+
+
+
+		<br>
+
+
+
+		</div>
+
+	</div>
+
+</div>
+
+
+
+
+
+<div class="clearfix">&nbsp;</div>
+
+
+
+<div id="toc">&nbsp;</div>
+
+<br><br>
+
+<div class="container">
+
+
+
+	<div  class="panel panel-primary">
+
+		<div class="panel-heading">
+
+			<h3 class="panel-title">Table of Contents</h3>
+
+		</div>
+
+
+
+		<div class="panel-body">
+
+			<div class="row">
+
+				<div class="col-sm-4">
+
+					<div class="list-group br0 list-group-striped">
+
+						  <a href="#sec-1" class="list-group-item">1. Support</a>
+
+						  <div href="#" class="list-group-item">
+
+						  		<a href="#sec-2">2. Information</a>
+
+								<br>
+
+						  		<a class="list-group-subitem" href="#sec-2a">2a. Installation via WordPress </a>
+
+						  		<a class="list-group-subitem" href="#sec-2b">2b. Installation via FTP</a>
+
+
+
+						  </div>
+
+						 
+
+						  <div href="#" class="list-group-item">
+
+						  		<a href="#sec-3">3. Demo XML</a>
+
+								<br>
+
+						  		<a class="list-group-subitem" href="#sec-3a">3a. Demo Data Plugin </a>
+
+						  </div>
+
+
+
+						  <a href="#sec-4" class="list-group-item">4. Plugins</a>
+
+						  
+
+						  <div href="#" class="list-group-item">
+
+						  		<a href="#sec-5">5. Setup A Menu</a>
+
+								<br>
+
+						  		<a class="list-group-subitem" href="#sec-5a">5a. Nested Menu Elements </a>
+
+						  		<a class="list-group-subitem" href="#sec-5b">5b. Uber Menu </a>
+
+						  		
+
+						  </div>
+
+
+
+						  <a href="#sec-6" class="list-group-item">6. Page Templates</a>
+
+						 
+
+					</div>
+
+
+
+				</div>
+
+				<div class="col-sm-4">
+
+						<div class="list-group br0 list-group-striped">
+
+						 
+
+						  
+
+						  <a href="#sec-7" class="list-group-item">7. Blog Page</a>
+
+						  <a href="#sec-8" class="list-group-item">8. Portfolio Page</a>
+
+						  <a href="#sec-9" class="list-group-item">9. WooCommerce</a>
+
+						  <a href="#sec-10" class="list-group-item">10. Contact Page</a>
+
+						  <a href="#sec-11" class="list-group-item">11. Visual Composer</a>
+
+						
+
+						  <a href="#sec-12" class="list-group-item">12. Theme Options</a>
+
+						  <a href="#sec-13" class="list-group-item">13. Custom Sidebars</a>
+
+						  
+
+						 
+
+					</div>
+
+
+
+				</div>
+
+				<div class="col-sm-4">
+
+						<div class="list-group br0 list-group-striped">
+
+						  <div href="#" class="list-group-item">
+
+						  <a href="#sec-14">14. Revolution Slider</a>
+
+						  	<br>
+
+						  	<a class="list-group-subitem" href="#sec-14a">14a. Revolution Slider Import/Export </a>
+
+						  	<a class="list-group-subitem" href="#sec-14b">14b. Layer Slider Import/Export </a>
+
+						  </div>
+
+						  <a href="#sec-15" class="list-group-item">15. Child Theme</a>
+
+						  <a href="#sec-16" class="list-group-item">16. Translation</a>
+
+						  <a href="#sec-17" class="list-group-item">17. FAQ</a>
+
+						  <a href="#sec-18" class="list-group-item">18. Credits</a>
+
+				
+
+						 
+
+					</div>
+
+
+
+				</div>
+
+			</div>
+
+		</div>
+
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<!--- Section -->
+
+	<div class="section">
+
+		<div id="sec-1">&nbsp;</div>
+
+		<br><br>	
+
+		<div class="panel panel-primary">
+
+			<div class="panel-heading">
+
+				<h3 class='panel-title'>1. Support <a href='#toc' class='pull-right totoc'>To Top</a></h3>
+
+			</div>
+
+			<div class="panel-body">
+
+				<p>Hello and thank you once again for buying our template.</p>
+
+				<p>
+
+					If you can't find an answer inside this help file, we provide a support forum to handle your requests. It should be used only for questions on theme features, requests or issues you might encounter. Before you are ready to use the support forum you should create an account and activate it using your item purchase code.
+
+					<ul>
+
+						<li>Go to ThemeForest and Log into your account</li>
+
+						<li>Next click on your username and click Downloads</li>
+
+						<li>Navigate through the items you have bought and find our theme</li>
+
+						<li>Then Click on Download and select "License Certificate"</li>
+
+						<li>Open it and find the Item Purchase code (see image below)</li>
+
+						<li>Visit <a href='http://1theme.com/themeforest/'>http://1theme.com/themeforest/</a> and register an account using your item purchase code.</li>
+
+						<li>Activate your accound and you can now use the forum to create and reply to threads.</li>
+
+					</ul>
+
+				</p>
+
+
+
+				<div class="alert alert-warning">Although please note that the forum shouldn't be used for questions on customizations or third party plugins.</div>
+
+				
+
+				<div class="page-header">
+
+					<h4>Watch the video tutorial</h4>
+
+				</div>
+
+				<iframe width="1108" height="623" src="https://www.youtube.com/embed/6nwMiT8IiSM" frameborder="0" allowfullscreen></iframe>
+
+
+
+				<div class="page-header"><h4>Getting the Item Purchase Code</h4></div>
+
+
+
+				<div class="thumbnail">
+
+					<img src="assets/img/item-purchase-code.png" alt="">
+
+				</div>
+
+			</div> <!-- /.panel-body-->
+
+		</div>
+
+	</div><!-- /.Section -->
+
+
+
+
+
+	<!--- Section -->
+
+	<div class="section">
+
+		<div id="sec-2">&nbsp;</div>
+
+		<br><br>	
+
+		<div class="panel panel-primary">
+
+			<div class="panel-heading">
+
+				<h3 class='panel-title'>2. Information <a href='#toc' class='pull-right totoc'>To Top</a></h3>
+
+			</div>
+
+			<div class="panel-body">
+
+				Before you proceed at installing the theme make sure you have installed a working copy of WordPress.
+
+				You can read more about the WordPress famous 5 minute installation process <a href="http://codex.wordpress.org/Installing_WordPress#Famous_5-Minute_Install">here</a>.
+
+				If you need help at installing WordPress you can read more <a href="http://codex.wordpress.org/Installing_WordPress">here</a>.
+
+				Or watch this video created by the WooThemes team <a href="http://vimeo.com/17147778">here</a>.
+
+
+
+				<div class="page-header">
+
+					<h4>Files</h4>
+
+				</div>
+
+				<p>
+
+				After you have downloaded the theme from Themeforest you will have a zip file with all the files we created for you. <br>
+
+				Extract this file. Inside you will find a folder called simply "Mint" with the following files:</p>
+
+
+
+				<div class="row">
+
+					<div class="col-sm-8">
+
+						<ul>
+
+							<li>
+
+								<strong>1. Documentation</strong> - contains all the help files we provide along with the theme. It's the same documentation you are reading at the moment. You can also view this documentation online.
+
+							</li>
+
+							<li><strong>2. Theme</strong> - contains the zip file of the theme which you should be uploading to your sever. It is the most valuable of them all.</li>
+
+							<li><strong>3. XML File</strong> - contains an XML file. You can use this file to import the demo data you see on the demo web-site.</li>
+
+							<li><strong>4. License</strong> - contains licensing information.</li>
+
+							<li><strong>5. PSD</strong> - contains the PSD files of the theme.</li>
+
+							<li><strong>6. Child Theme</strong> - contains the child theme as a prepared file which allows you to extend the theme.</li>
+
+							<li><strong>index.php and style.css</strong> - these are two files to let people know that they have uploaded the wrong file. In case users upload the whole package instead of the theme from it.</li>
+
+						</ul>
+
+					</div>
+
+					<div class="col-sm-2">
+
+						<img src="assets/img/themeforest-files.png" alt="">
+
+					</div>
+
+				</div>
+
+
+
+
+
+			</div> <!-- /.panel-body-->
+
+		</div>
+
+	</div><!-- /.Section -->
+
+
+
+	<!--- Section -->
+
+	<div class="section">
+
+		<div id="sec-2a">&nbsp;</div>
+
+		<br><br>	
+
+		<div class="panel panel-primary">
+
+			<div class="panel-heading">
+
+				<h3 class='panel-title'>2a. Installation via WordPress <a href='#toc' class='pull-right totoc'>To Top</a></h3>
+
+			</div>
+
+			<div class="panel-body">
+
+				Now you are ready to install Mint. To install Mint via WordPress:
+
+				<ul>
+
+					<li>Go to Appearance &rarr; Themes</li>
+
+					<li>Click on Install Themes</li>
+
+					<li>Choose "Upload"</li>
+
+					<li>Navigate and select the file from the 2. Theme folder</li>
+
+					<li>Click install now</li>
+
+					<li>Go to Appearance &rarr; Themes</li>
+
+					<li>Activate Mint</li>
+
+				</ul>
+
+
+
+				<div class="page-header">
+
+					<h4>Installation via WordPress Video</h4>
+
+				</div>
+
+				<iframe width="1108" height="623" src="https://www.youtube.com/embed/2aVZ2cFvCLU" frameborder="0" allowfullscreen></iframe>
+
+
+
+			</div> <!-- /.panel-body-->
+
+		</div>
+
+	</div><!-- /.Section -->
+
+
+
+	<!--- Section -->
+
+	<div class="section">
+
+		<div id="sec-2b">&nbsp;</div>
+
+		<br><br>	
+
+		<div class="panel panel-primary">
+
+			<div class="panel-heading">
+
+				<h3 class='panel-title'>2b. Installation via FTP <a href='#toc' class='pull-right totoc'>To Top</a></h3>
+
+			</div>
+
+			<div class="panel-body">
+
+				If for some reason you are not able to install Mint using WordPress follow these steps to install Mint:
+
+				<ul>
+
+					<li>Start your FTP Software of choice. We suggest using <a href="https://filezilla-project.org/">Filezilla</a></li>
+
+					<li>Log into your hosting account and navigate to the folder where you have installed WordPress (e.g. ~/public_html/yoursite.com/)</li>
+
+					<li>Navigate to the wp-content/themes folder (e.g. ~/public_html/yoursite.com/wp-content/themes/)</li>
+
+					<li>Unzip Mint and make sure you are uploading the theme not the whole package.</li>
+
+					<li><strong>Set the transfer type to binary!</strong></li>
+
+					<li>Upload the unziped theme to the themes folder</li>
+
+					<li>Now in your WordPress installation go to Appearance &rarr; Themes</li>
+
+					<li>And activate Mint</li>
+
+				</ul>
+
+
+
+				<div class="alert alert-danger">
+
+					Make sure you are uploading the files in binary mode! <br />
+
+					Make sure you are uploading Mint files from the ziped theme not the zip file itself!
+
+				</div>
+
+
+
+				<div class="page-header">
+
+					<h4>Setup the transfer mode in Filezilla (queue setting)</h4>
+
+				</div>
+
+				<div class="thumbnail">
+
+					<img src="assets/img/binary-a.png" alt="">
+
+				</div>
+
+
+
+				<div class="page-header">
+
+					<h4>Setup the transfer mode in Filezilla (global setting)</h4>
+
+				</div>
+
+				<div class="thumbnail">
+
+					<img src="assets/img/binary-b.png" alt="">
+
+				</div>
+
+
+
+			</div> <!-- /.panel-body-->
+
+		</div>
+
+	</div><!-- /.Section -->
+
+
+
+	<!--- Section -->
+
+	<div class="section">
+
+		<div id="sec-3">&nbsp;</div>
+
+		<br><br>	
+
+		<div class="panel panel-primary">
+
+			<div class="panel-heading">
+
+				<h3 class='panel-title'>3. Demo XML <a href='#toc' class='pull-right totoc'>To Top</a></h3>
+
+			</div>
+
+			<div class="panel-body">
+
+				<p>
+
+					It's probably a good idea to import the demo data you see on our demo web-site.
+
+					This section will guide you in installing the WordPress Importer plugin and import the demo data.
+
+				</p>
+
+				<ul>
+
+					<li>Go to Tools &rarr; Import</li>
+
+					<li>Click on WordPress Importer. If you haven't previously installed this plugin it will ask you to install it. Install it.</li>
+
+					<li>Once the plugin is installed, select the XML file from the 3. XML folder and upload it.</li>
+
+					<li>Assign the content to a user or create a new one</li>
+
+					<li>And check the "Download and import attachments" checkbox</li>
+
+					<li>Click Submit</li>
+
+				</ul>
+
+
+
+				<div class='alert alert-info'>Note that this process might take some time depending on your server configration</div>
+
+				<p>
+
+					Some users might experience problems at this point at which the importer fails to download the attachments.
+
+					If you failed to import the content or the attachments didn't download make sure you follow these steps before trying again.
+
+				</p>
+
+
+
+				<ul>
+
+					<li>Make sure your uploads folder exists and is writable.</li>
+
+					<li>Set the chmod to 777</li>
+
+					<li>Make sure your max_file_uploads is set to a higher value</li>
+
+					<li>Make sure your max_upload_size  is set to a higher value</li>
+
+				</ul>
+
+				
+
+				<div class="alert alert-info">This process might take quite some time. Be patient please.</div>
+
+
+
+				<div class="page-header">
+
+					<h4>Import the Demo XML file</h4>
+
+				</div>
+
+				<iframe width="1108" height="623" src="https://www.youtube.com/embed/HdiUMV4qj7I" frameborder="0" allowfullscreen></iframe>
+
+
+
+			</div> <!-- /.panel-body-->
+
+		</div>
+
+	</div><!-- /.Section -->
+
+
+
+	<!--- Section -->
+
+	<div class="section">
+
+		<div id="sec-3a">&nbsp;</div>
+
+		<br><br>	
+
+		<div class="panel panel-primary">
+
+			<div class="panel-heading">
+
+				<h3 class='panel-title'>3a. Demo Data Plugin <a href='#toc' class='pull-right totoc'>To Top</a></h3>
+
+			</div>
+
+			<div class="panel-body">
+
+				<p>
+
+					Alternatively, you could use our import data plugin. It's a plugin which holds all the images and database entries. <br>
+
+					Once you activate and run the wizard you will get all the demo data running.
+
+
+
+				</p>
+
+				<p>First grab the latest version of <strong>Demo Importer</strong> from <a href="http://help.1theme.com/mint/DemoImporter.zip">here</a> or <a href="#">here</a></p>
+
+				<p>After you've downloaded the plugin make sure to make a backup. Then upload the plugin and activate it.</p>
+
+				<div class="alert alert-danger">
+
+					<p>Make sure to backup your web-site ! The plugin destroys existing content!</p>
+
+					<p>If you fail to upload the zip file, upload it using your FTP client.</p>
+
+				</div>
+
+				<p>Next, click on "Mint Demo Data" under "Tools" and run the importer.</p>
+
+				<p>The importer will delete existing content, run a few queries and import new content and lastly will copy all the uploaded files.</p>
+
+				<p>If you have any problems at all with the plugin please write us and we'll try to fix it as soon as possible.</p>
+
+			</div> <!-- /.panel-body-->
+
+		</div>
+
+	</div><!-- /.Section -->
+
+
+
+	<!--- Section -->
+
+	<div class="section">
+
+		<div id="sec-4">&nbsp;</div>
+
+		<br><br>	
+
+		<div class="panel panel-primary">
+
+			<div class="panel-heading">
+
+				<h3 class='panel-title'>4. Plugins <a href='#toc' class='pull-right totoc'>To Top</a></h3>
+
+			</div>
+
+			<div class="panel-body">
+
+				To make this theme more flexible we decided to drop a few plugins to aid the users in creating content.
+
+				This way you can either use the plugin we are providing or replace it with the one you like.
+
+				At this point we suggest installing the following plugins:
+
+				<div class="row">
+
+					<div class="col-sm-8">
+
+						<ul id='plugins-list'>
+
+							<li><strong>Contact Form 7</strong> - guessing by the name it's a plugin you can use to create forms. It's a very flexible plugin with a lot of customization options. If don't like it you can use any other plugin for the contact form</li>
+
+							<li>
+
+								<strong>Latest Tweets</strong> - it's a plugin which adds an widget to show your latest tweets. You can embed this plugin to show your latest tweets and show it on any sidebar or content you like.
+
+							</li>
+
+
+
+							<li><strong>MailChimp for WordPress lite</strong> - there are certain areas of the web-site where you would like to show a "newsletter signup" form. Well this plugin helps you do that.</li>
+
+							<li><strong>Quick Flickr Widget</strong> - allows you to show the latest flickr feed from your Flickr profile.</li>
+
+							<li><strong>Revolution Slider</strong> - an extremely flexible and powerful slider plugin.</li>
+
+							<li><strong>Layer Slider</strong> - another extremly powerfull slider.</li>
+
+							<li><strong>WooCommerce</strong> - enables all the power of ecommerce on a website.</li>
+
+							<li><strong>Sitemap</strong> - a very simple plugin which allows you to generate a sitemap</li>
+
+							<li><strong>WPBaker Visual Composer</strong> - this plugin is the main source of shortcodes and flexibility on the whole web-site. We have extended it and modified and added a lot of great items. This plugin is required. Although you can choose to work without him and still using it's powerfull shortcodes.</li>
+
+							<li><strong>And much more to come...</strong></li>
+
+						</ul>
+
+					</div>
+
+					<div class="col-sm-2">
+
+						<img src="assets/img/plugins.png" alt="">
+
+					</div>
+
+				</div>
+
+				
+
+				<div class="page-header">
+
+					<h3>Installing the plugins</h3>
+
+				</div>
+
+				<p>
+
+					There are a few plugins which are recommended and a few which are required. Revolution Slider and Visual Composer are not part of the official WordPress repository because they are premium plugins. <br />
+
+					But because we own an extended license we can share these plugins with you guys. Now to install these plugins and those we recommend you should install them through the special interface (not the regular plugin installation interface). Go to Appearance &rarr; Install Plugins. Install all the required plugins and those you want. <br />
+
+					All other plugins that are in the public WordPress repository can be installed through the regular plugin installation process. 
+
+				</p>
+
+			</div> <!-- /.panel-body-->
+
+		</div>
+
+	</div><!-- /.Section -->
+
+
+
+
+
+
+
+	<!--- Section -->
+
+	<div class="section">
+
+		<div id="sec-5">&nbsp;</div>
+
+		<br><br>	
+
+		<div class="panel panel-primary">
+
+			<div class="panel-heading">
+
+				<h3 class='panel-title'>5. Setup a Menu <a href='#toc' class='pull-right totoc'>To Top</a></h3>
+
+			</div>
+
+			<div class="panel-body">
+
+				If you have imported the Demo data then you should already have a menu.
+
+				If not follow these steps to create a menu and add items to it:
+
+				<ul>
+
+					<li>Go to Appearance &rarr; Menus</li>
+
+					<li>Click "create a new menu"</li>
+
+					<li>Add a name and create a menu</li>
+
+					<li>Once you have the menu created select the content you would like to this menu. For example add a few Pages.</li>
+
+					<li>You can tilt the menu items to the right to create the submenus</li>
+
+					<li>Once you created the items click "Save Menu"</li>
+
+					<li>Now you have to assign the menu to a theme location. Click on Manage Locations tab at the top</li>
+
+					<li>Select the location you want for example the Main Menu, and select the Assigne Menu which is the menu you have created.</li>
+
+					<li>Then click "Save Changes"</li>
+
+
+
+				</ul>
+
+
+
+				<div class="page-header">
+
+					<h4>Create a menu</h4>
+
+				</div>
+
+				<iframe width="1108" height="623" src="https://www.youtube.com/embed/lf5tT7-7K9E" frameborder="0" allowfullscreen></iframe>
+
+			</div> <!-- /.panel-body-->
+
+		</div>
+
+	</div><!-- /.Section -->
+
+
+
+	<!--- Section -->
+
+	<div class="section">
+
+		<div id="sec-5a">&nbsp;</div>
+
+		<br><br>	
+
+		<div class="panel panel-primary">
+
+			<div class="panel-heading">
+
+				<h3 class='panel-title'>5a. Nested Menu Elements <a href='#toc' class='pull-right totoc'>To Top</a></h3>
+
+			</div>
+
+			<div class="panel-body">
+
+				<p>
+
+					If you don't like the way Uber Menu works and would like to make a beautifull menu without the use of Uber Menu, then you'll need beautifully placed nested elements.
+
+					Mint can help you do that. <br />
+
+					First create a regular menu as is shown in the upper section.
+
+					Now before you proceed make sure you show CSS classes in your Screen Options (see screenshot).
+
+				</p>
+
+				<div class="thumbnail">
+
+					<img src="assets/img/menu-screen-options.png" alt="Enable screen options to show CSS classes">
+
+				</div>
+
+				<p>Now you'll have to choose a number of columns. That way you'll have to tell Mint what number of columns to keep in the submenu. Assuming you've chosen 4. You should add 2 classes to the parent element.
+
+				See screenshot</p>
+
+				<div class="thumbnail">
+
+					<img src="assets/img/menu-nested-elements.png" alt="">
+
+				</div>
+
+				<p>Now you'll see that we've added 2 classes "mint-extended" and "mint-menu-col4". You'll see the number 4 at the end which means we'll be having 4 other sub elements. The next step is to add the elements.
+
+				Add one simple page that will represent your column and your element items as third nested items which are actually the column elements. And that's it.
+
+				</p>
+
+				<div class="alert alert-danger">You can always import the demo data and see the menus we've created there.</div>
+
+			</div> <!-- /.panel-body-->
+
+		</div>
+
+	</div><!-- /.Section -->
+
+
+
+
+
+	<!--- Section -->
+
+	<div class="section">
+
+		<div id="sec-5b">&nbsp;</div>
+
+		<br><br>	
+
+		<div class="panel panel-primary">
+
+			<div class="panel-heading">
+
+				<h3 class='panel-title'>5b. Uber Menu <a href='#toc' class='pull-right totoc'>To Top</a></h3>
+
+			</div>
+
+			<div class="panel-body">
+
+					<p>
+
+					UberMenu is a premium plugin which allows users to create rich and powerful menus. Unfortunately the plugin doesn't offer an extended license and we could not bring this awesome plugin into Mint.
+
+				Although we still have included the functionality to use it. 
+
+				First if you intend to use UberMenu you should acquire it.  <br />
+
+				To <strong>buy</strong> UberMenu visit this page <a href="http://codecanyon.net/item/ubermenu-wordpress-mega-menu-plugin/154703?ref=1theme" class="btn btn-danger">UberMenu</a>.
+
+				<br>After you have acquired UberMenu install and activate it.
+
+				After you have installed UberMenu you will now have the option to use it.
+
+				Before you do that make sure you enable Uber Menu Support in theme options.
+
+				You can read more about UberMenu on UberMenus official page <a href="http://wpmegamenu.com/">here</a>
+
+					<br />
+
+					<h4>1. Activate plugin</h4><br />
+
+					<div class="thumbnail">
+
+					<img src="assets/img/step1.png" alt=""></div>
+
+                     <br />
+
+					<h4>2. Now go to <em>Theme Options</em> -> <em>Header Setings</em> -> <em>Menu Type ( On Bottom).</em></h4><br />
+
+				<div class="thumbnail"><img src="assets/img/step2.png" alt=""></div>
+
+					<br />
+
+					<h4>3. Activating WordPress 3 Custom Menu Support</h4>
+
+<ol>
+
+	<li>Navigate to <em>Appearance &gt; UberMenu</em></li>
+
+	<li>Under <em>Theme Integration</em>, enable <em>Easy Integration</em></li>
+
+	<li>Click <em>Save Settings</em></li>
+
+</ol>
+
+<div class="thumbnail"><img src="assets/img/step3.png" alt=""><br /></div>
+
+                     <h4>4. Setup style for Uber Menu.</h4><br />
+
+<ol>
+
+	<li>Navigate to <em>Appearance &gt; UberMenu</em></li>
+
+	<li>Under <em>Basic Configuration</em>, turn off <em>Expand Menu Bar Full Width!</em></li>
+
+	<div class="thumbnail"><img src="assets/img/step5.png" alt=""></div>
+
+	<br /><li>Under <em>Style Configuration</em>, Select  <em>Do Nothing</em> on <em>Style Application</em> </li>
+
+	<div class="thumbnail"><img src="assets/img/step6.png" alt=""></div>
+
+</ol>
+
+
+
+
+
+
+
+                    <h4>5. Go to <em>Apperance</em>&gt;<em>Menus</em>  and activate Uber Menu for your menu </h4><br />
+
+                  <div class="thumbnail"> <img src="assets/img/step4.png" alt=""></div>
+
+                    <br />
+
+<div class="alert alert-info">For full documentation on uber menu visit <a href="http://wpmegamenu.com/">wpmegamenu.com</a></div>
+
+				</p>
+
+
+
+			</div> <!-- /.panel-body-->
+
+		</div>
+
+	</div><!-- /.Section -->
+
+	
+
+
+
+	
+
+	
+
+	<!--- Section -->
+
+	<div class="section">
+
+		<div id="sec-6">&nbsp;</div>
+
+		<br><br>	
+
+		<div class="panel panel-primary">
+
+			<div class="panel-heading">
+
+				<h3 class='panel-title'>6. Page Templates <a href='#toc' class='pull-right totoc'>To Top</a></h3>
+
+			</div>
+
+			<div class="panel-body">
+
+				<p>
+
+					If you never worked with WordPress you should know that WordPress has a concept of Page Templates.
+
+				This allows you to create a page and select a custom Template to customize it differently.
+
+				This is great because it allows you to customize the same content under different templates.
+
+				At this point Mint has 3 different page templates:
+
+				</p>
+
+
+
+				<ul>
+
+					<li>
+
+						<strong>Compact page</strong> - the title says it all it allows you to create content on some pages and show it in a very compact way. It removes the whole header and footer allowing your visitors to concentrate only on the content.
+
+					</li>
+
+					<li><strong>Short Page</strong> - it's a little bit different. It's a template which has a very short header and allows for content to be directly placed under the header.</li>
+
+					<li><strong>Contact Page</strong> - allows for the contact page to be created. Use this to create a contact page.</li>
+
+				</ul>
+
+
+
+				<p>
+
+					Along with Page Templates each page/post/portfolio item can be customized by using the "Page Settings" box. As you can see this adds a whole lot of customization options to your pages.
+
+				</p>
+
+
+
+				<div class="thumbnail">
+
+					
+
+						<img src="assets/img/page-settings.png" alt="">
+
+					
+
+				</div>
+
+			</div> <!-- /.panel-body-->
+
+		</div>
+
+	</div><!-- /.Section -->
+
+
+
+	<!--- Section -->
+
+	<div class="section">
+
+		<div id="sec-7">&nbsp;</div>
+
+		<br><br>	
+
+		<div class="panel panel-primary">
+
+			<div class="panel-heading">
+
+				<h3 class='panel-title'>7. Blog Page <a href='#toc' class='pull-right totoc'>To Top</a></h3>
+
+			</div>
+
+			<div class="panel-body">
+
+			<p>
+
+				To create a blog page go to:
+
+				<ul>
+
+					<li>Admin Panel &rarr; Pages &rarr; Add new.</li>
+
+					<li>Add a title (it will be ignored)</li>
+
+					<li>Leave the content empty (it will be ignored).</li>
+
+					<li>Publish the page</li>
+
+				</ul>
+
+			</p>
+
+			<p>	
+
+				Although most of the pages can be customized using the "Page Settings" box while editing the page.
+
+				Unfortunately this is not the caase of the Blog Page or Portfolio page. We call these <strong>Special Pages</strong>.
+
+				Special Pages are usually the pages which list the items (like the blog page or portfolio page). Still you are able to modify the look of these pages
+
+				on the <strong>Theme Options</strong> page. We'll get back to Theme Options a little later. <br /> To modify the look of the Blog Page go to Admin Panel &rarr; Theme Options or
+
+				Admin Panel &rarr; Appearance &rarr; Theme Options. 
+
+				<br>This is the Theme Options page, for now find the Blog Settings tab and click on it.</p>
+
+
+
+				<div class="thumbnail">
+
+					<img src="assets/img/blog-page.png" alt="">
+
+				</div>
+
+				As you've probably noticed this page has a lot more settings than other pages. Make sure to walk through each and every settings and customize it the way you like.
+
+
+
+				<br>
+
+				<p>The last step is to setup the page you've created earlier to be the page WordPress will use to show your blog posts.</p>
+
+				<ul>
+
+					<li>Go to Settings &rarr; Reading</li>
+
+					<li>Check "Front page displays" &rarr; "A static page" and select "Posts Page" and select the page you have created earlier.</li>
+
+					<li>Save Changes and now you can view your Blog Page live</li>
+
+				</ul>
+
+
+
+				<div class="page-header">
+
+					<h4>Create and setup a Blog page</h4>
+
+				</div>
+
+				<iframe width="1108" height="623" src="https://www.youtube.com/embed/PEI5n98cq2Q" frameborder="0" allowfullscreen></iframe>
+
+
+
+			</div> <!-- /.panel-body-->
+
+		</div>
+
+	</div><!-- /.Section -->
+
+
+
+	<!--- Section -->
+
+	<div class="section">
+
+		<div id="sec-8">&nbsp;</div>
+
+		<br><br>	
+
+		<div class="panel panel-primary">
+
+			<div class="panel-heading">
+
+				<h3 class='panel-title'>8. Portfolio page <a href='#toc' class='pull-right totoc'>To Top</a></h3>
+
+			</div>
+
+			<div class="panel-body">
+
+				<p>Hapilly the portfolio page setup process is a little more easier.</p>
+
+				<ul>
+
+					<li>Go to Pages &rarr; Add new</li>
+
+					<li>Name it "Portfolio"</li>
+
+					<li>And publish the page</li>
+
+				</ul>
+
+
+
+				<p>If you would want to customize this page go to Appearance &rarr; Theme Options or Theme Options and click on the "Portfolio Settings". All customizations for this page are to be made here.</p>
+
+
+
+				<div class="alert alert-warning">Note that the page url must match the word "portfolio" for any other uses a shortode from Visual Composer.</div>
+
+			</div> <!-- /.panel-body-->
+
+		</div>
+
+	</div><!-- /.Section -->
+
+
+
+	<!--- Section -->
+
+	<div class="section">
+
+		<div id="sec-9">&nbsp;</div>
+
+		<br><br>	
+
+		<div class="panel panel-primary">
+
+			<div class="panel-heading">
+
+				<h3 class='panel-title'>9. WooCommerce <a href='#toc' class='pull-right totoc'>To Top</a></h3>
+
+			</div>
+
+			<div class="panel-body">
+
+				<p>This section is about the ecommerce plugin from the WooThemes team. <br />
+
+					Ever wanted to have your own shop? Now you have this option with WooCommerce and Mint. <br />
+
+					First make sure you have installed and activated WooCommerce.
+
+					If you haven't go to:
+
+					<ul>
+
+						<li>Appearance &rarr; Install Plugins</li>
+
+						<li>Find WooCommerce and Click Install</li>
+
+						<li>Go to Plugins find WooCommerce and click Activate</li>
+
+					</ul>
+
+					<p>Now at this point WooCommerce will ask you to generate the demo pages. Allow it to do it.</p>
+
+					<p>The next step is to create categories, tags and products.</p>
+
+					<ul>
+
+						<li>To create Categories go to
+
+							<ul>
+
+								<li>Products</li>
+
+								<li>Categories</li>
+
+								<li>Add new</li>
+
+							</ul>
+
+						</li>
+
+						<li>To create Tags go to
+
+							<ul>
+
+								<li>Products</li>
+
+								<li>Tags</li>
+
+								<li>Add new</li>
+
+							</ul>
+
+						</li>
+
+						<li>To create Products go to
+
+							<ul>
+
+								<li>Products</li>
+
+								<li>Add new</li>
+
+							</ul>
+
+						</li>
+
+					</ul>	
+
+
+
+					<p>If you allowed WooCommerce to generate the pages for you. Then find the Shop Page and view it. You should now have a working Shop at this point.</p>
+
+					<p>You can customize the layout of the Shop by going to Theme Options &rarr; WooCommerce.</p>	
+
+				</p>
+
+
+
+				<p>You can read more about WooCommerce <a href="http://docs.woothemes.com/documentation/plugins/woocommerce/woocommerce-codex/">here</a></p>
+
+
+
+				<div class="page-header">
+
+					<h4>Setting Up WooCommerce</h4>
+
+				</div>
+
+				<iframe width="1108" height="623" src="https://www.youtube.com/embed/KsvxD-aopy8" frameborder="0" allowfullscreen></iframe>
+
+				
+
+				
+
+			</div> <!-- /.panel-body-->
+
+		</div>
+
+	</div><!-- /.Section -->
+
+
+
+	<!--- Section -->
+
+	<div class="section">
+
+		<div id="sec-10">&nbsp;</div>
+
+		<br><br>	
+
+		<div class="panel panel-primary">
+
+			<div class="panel-heading">
+
+				<h3 class='panel-title'>10. Contact Page <a href='#toc' class='pull-right totoc'>To Top</a></h3>
+
+			</div>
+
+			<div class="panel-body">
+
+					
+
+				<p>
+
+					Before we proceed and create the actual page we should create a Contact Form. For this task we are going to use the Contact Form 7 plugin we mentioned earlier.
+
+					<ul>
+
+						<li>Go to Contact</li>
+
+						<li>Click Add new</li>
+
+						<li>Generate all the fields you need</li>
+
+						<li>Customize the form</li>
+
+						<li>Save your changes</li>
+
+						<li>Copy the shortcode</li>
+
+					</ul>
+
+					Here is the layout we are using on the Contact 1 page.
+
+					
+
+					<pre>
+
+						<code>&lt;div class="wpb_row vc_row-fluid">
+
+	&lt;div class="vc_span6 wpb_column column_container">
+
+	&lt;p class="mb20">[text* your-name placeholder "Name"] &lt;/p>
+
+	&lt;p class="mb20">[tel tel-193 placeholder "Phone"]&lt;/p>
+
+	&lt;/div>
+
+	&lt;div class="vc_span6 wpb_column column_container">
+
+	&lt;p class="mb20">[email* your-email placeholder "Email"] &lt;/p>
+
+	&lt;p class="mb20">[text your-subject placeholder "Website"] &lt;/p>
+
+	&lt;/div>
+
+	&lt;/div>
+
+
+
+	&lt;p class="mb20">[textarea your-message placeholder "Message"] &lt;/p>
+
+
+
+&lt;p>[submit class:btn class:widefat "Send"]&lt;/p></code>
+
+					</pre>
+
+					You can use this code to create the exact same form we are using.
+
+					Now when you have this shortcode go on and create a page.
+
+					If you are using visual composer find Contact Form and find the form you have created and now insert it.
+
+					If you aren't then insert the shortcode you have copied earlier.
+
+					At this point you hould have the contact form in place.
+
+					Add any other items you need.
+
+					Here is the layout which we are using on the contact 1 page.
+
+<pre>
+
+	<code>[vc_row el_class="fullwidth"][vc_column][vc_gmaps type="m" zoom="14" link="https://maps.google.com/maps?q=New+York,+NY,+United+States&amp;hl=en&amp;sll=37.0625,-95.677068&amp;sspn=61.323728,135.263672&amp;oq=New+York&amp;hnear=New+York&amp;t=m&amp;z=11" size="325"][/vc_column][/vc_row][vc_row][vc_column width="1/1"][space space="50"][vc_column_text]
+
+&lt;h3 style="text-align: center;">Write Us A Message&lt;/h3>
+
+[/vc_column_text][contact-form-7 id="301" title="Contact form 1"][space space="60"][/vc_column][/vc_row][vc_row][vc_column width="1/3"][iconbox title="Address" icon="icon-home" type="mint-iconbox-j"]United States of America.
+
+P.O Box, 353 Three Avenue.[/iconbox][/vc_column][vc_column width="1/3"][iconbox title="Phone" icon="icon-phone" type="mint-iconbox-j"]Local: 123 (88) 999 258
+
+Mobile: 123 (88) 999 258[/iconbox][/vc_column][vc_column width="1/3"][iconbox title="Email" icon="icon-mail" type="mint-iconbox-j"]info@Mintmegapack.com
+
+www.Mintmegapack.com[/iconbox][/vc_column][/vc_row]</code>
+
+</pre>
+
+				</p>
+
+				
+
+				<div class="page-header">
+
+					<h4>Setting Up the Contact Page</h4>
+
+				</div>
+
+				<iframe width="1108" height="623" src="https://www.youtube.com/embed/WNly_ry6AW8" frameborder="0" allowfullscreen></iframe>
+
+				
+
+				
+
+			</div> <!-- /.panel-body-->
+
+		</div>
+
+	</div><!-- /.Section -->
+
+
+
+
+
+
+
+	<!--- Section -->
+
+	<div class="section">
+
+		<div id="sec-11">&nbsp;</div>
+
+		<br><br>	
+
+		<div class="panel panel-primary">
+
+			<div class="panel-heading">
+
+				<h3 class='panel-title'>11. Visual Composer <a href='#toc' class='pull-right totoc'>To Top</a></h3>
+
+			</div>
+
+			<div class="panel-body">
+
+				<p>I've been mentioning Visual Composer  all over this documentation. It's time we take a closer look at this powerfull tool.
+
+				Make sure you installed Visual Composer as described in the <a href="#sec-4">Plugins</a> section. This is a powerfull plugin which gives you the possibility to create rich and beautiful pages in a very easy way.
+
+				It introduces the concept of panels and rows. Rows can have columns and will allow you to add items in a block-like interface. Which is kinda cool and easy to use.
+
+				The plugin comes bundled with a whole bunch of items which include: </p>
+
+				<div class="row">
+
+					<div class="col-sm-3">
+
+					<br>
+
+						<ul>
+
+							<li>Rows</li>
+
+							<li>Text Blocks</li>
+
+							<li>Separators</li>
+
+							<li>Message Boxes</li>
+
+							<li>Facebook Like Button</li>
+
+							<li>Tweetmeme Button</li>
+
+							<li>Google+ Button</li>
+
+							<li>Pinterest Button</li>
+
+							<li>FAQs</li>
+
+							<li>Images</li>
+
+							<li>Galleries</li>
+
+							<li>Tabs</li>
+
+						</ul>
+
+					</div>
+
+					<div class="col-sm-3">
+
+					<br>
+
+						<ul>
+
+							
+
+							<li>Tour Sections</li>
+
+							<li>Accordions</li>
+
+							<li>Teasers</li>
+
+							<li>Post Sliders</li>
+
+							<li>Widgetised Sidebars</li>
+
+							<li>Buttons</li>
+
+							<li>Video Players</li>
+
+							<li>Google Maps</li>
+
+							<li>Flickr Widget</li>
+
+							<li>Progress Bars</li>
+
+							<li>Pie Charts</li>
+
+							<li>Search forms</li>
+
+						</ul>
+
+					</div>
+
+
+
+					<div class="col-sm-3">
+
+					<br>
+
+						<ul>
+
+							
+
+							<li>WP Metas</li>
+
+							<li>WP Recent Comments</li>
+
+							<li>WP Calendars</li>
+
+							<li>WP Pages</li>
+
+							<li>WP Tag Cloud</li>
+
+							<li>WP Custom Menu</li>
+
+							<li>WP Text</li>
+
+							<li>WP Recent Posts</li>
+
+							<li>WP Links</li>
+
+							<li>WP Categories</li>
+
+							<li>WP Archives</li>
+
+							<li>WP RSS</li>
+
+						</ul>
+
+					</div>
+
+
+
+					<div class="col-sm-3">
+
+						<strong>Our own elements unique for mint:</strong>
+
+						<ul>
+
+							<li>Quotes</li>
+
+							<li>Bars</li>
+
+							<li>Icon Boxes</li>
+
+							<li>Sliders</li>
+
+							<li>Carousels</li>
+
+							<li>Spacers</li>
+
+							<li>Team boxes</li>
+
+							<li>Dropcaps</li>
+
+							<li>Highlights</li>
+
+							<li>Cutom Lists</li>
+
+							<li>Socials</li>
+
+							<li>Testimonials</li>
+
+							<li>Others to come...</li>
+
+						</ul>
+
+
+
+					</div>
+
+				</div>
+
+				<ul>
+
+				
+
+					
+
+					
+
+					
+
+				</ul>
+
+				<p>Some of these are extended by us and have even more functionality than they originally had! <br>
+
+				As you can see it has a lot of useful features which will really help you in creating your awesome content! Here is a screenshot :</p>
+
+
+
+				<div class="thumbnail">
+
+					<img src="assets/img/visual-composer-elements.png" alt="">
+
+				</div>
+
+
+
+			</div> <!-- /.panel-body-->
+
+		</div>
+
+	</div><!-- /.Section -->
+
+
+
+	<!--- Section -->
+
+	<div class="section">
+
+		<div id="sec-12">&nbsp;</div>
+
+		<br><br>	
+
+		<div class="panel panel-primary">
+
+			<div class="panel-heading">
+
+				<h3 class='panel-title'>12. Theme Options <a href='#toc' class='pull-right totoc'>To Top</a></h3>
+
+			</div>
+
+			<div class="panel-body">
+
+				It's finally time to introduce you to the Theme Options page. The page which allows you to change your theme the way you want.
+
+				This page has a very big list of settings:
+
+				<ul>
+
+					<li><strong>Main Settings</strong> - here you can modify the general settings from Logo, Favicons and Tracking ids to disablign Retina Ready or Responsiveness.</li>
+
+					<li><strong>Header Settings</strong> - here you can modify the look of your heading. You can choose from our predefined layouts and customize each element. At this point the header has two areas the Left and Right. You can choose whatever you would want to show in those sections.</li>
+
+					<li><strong>Inner Header</strong> - it's the part where you can change the inner heading which is that area right under the header. It has the same concept of areas and you can select whatever you would like to show in those areas.</li>
+
+					<li><strong>Typography</strong> - Customize the fonts or upload your own custom fonts.</li>
+
+					<li><strong>Blog Settings</strong> - this page allows you to customize your Blog page.</li>
+
+					<li><strong>Portfolio Settings</strong> - this page allows you to customize your Portfolio Page</li>
+
+					<li><strong>Footer</strong> - here you can change the look of your footer. It uses the same concept of areas mentioned above.</li>
+
+					<li><strong>Social Networks</strong> - A big list of social networks. Insert your social network addresses here</li>
+
+					<li><strong>Coming Soon</strong> - allows you to enable/disable the coming soon page and cutomize it.</li>
+
+					<li><strong>Maintenance</strong> - allows you to enable/disable the maintenance mode.</li>
+
+					<li><strong>Background</strong> - customize the backgrounds of your web-site.</li>
+
+					<li><strong>Colors</strong> - customize the colors of your web-site.</li>
+
+					<li><strong>Lightbox</strong> - choose and customzie the lightbox you like the most</li>
+
+					<li><strong>Contact</strong> - customize your contact details</li>
+
+					<li><strong>Other</strong> - other settings</li>
+
+					<li><strong>WooCommerce</strong> - customize WooCommerce here</li>
+
+					<li><strong>Custom CSS</strong> - add your custom CSS here.</li>
+
+				</ul>
+
+
+
+				<div class="page-header">
+
+					<h4>Theme Options</h4>
+
+				</div>
+
+				<iframe width="1108" height="623" src="https://www.youtube.com/embed/_fCqNf3mwmk" frameborder="0" allowfullscreen></iframe>
+
+			</div> <!-- /.panel-body-->
+
+		</div>
+
+	</div><!-- /.Section -->
+
+
+
+	<!--- Section -->
+
+	<div class="section">
+
+		<div id="sec-13">&nbsp;</div>
+
+		<br><br>	
+
+		<div class="panel panel-primary">
+
+			<div class="panel-heading">
+
+				<h3 class='panel-title'>13. Custom Sidebars <a href='#toc' class='pull-right totoc'>To Top</a></h3>
+
+			</div>
+
+			<div class="panel-body">
+
+				The theme comes with a little handy plugin called "Custom Sidebars". It allows users to create sidebars on their own.
+
+				Then assign content to the sidebar.
+
+				Now when editing a page the user has the posibility to select which sidebar he should show on that specific page.
+
+				To create a custom sidebar go to:
+
+				<ul>
+
+					<li>Appearance &rarr; Sidebars</li>
+
+					<li>Enter a sidebar name and click "Add Sidebar"</li>
+
+					<li>A css Class will be asigned to it.</li>
+
+					<li>Next go to Appearance &rarr; Widgets</li>
+
+					<li>Add elements to your newly created sidebar</li>
+
+					<li>Then go to Pages &rarr; Your Page</li>
+
+					<li>And in the "Sidebar" box select the sidebar you created</li>
+
+					<li>Save changes.</li>
+
+				</ul>
+
+
+
+
+
+			</div> <!-- /.panel-body-->
+
+		</div>
+
+	</div><!-- /.Section -->
+
+
+
+	<!--- Section -->
+
+	<div class="section">
+
+		<div id="sec-14">&nbsp;</div>
+
+		<br><br>	
+
+		<div class="panel panel-primary">
+
+			<div class="panel-heading">
+
+				<h3 class='panel-title'>14. Revolution Slider <a href='#toc' class='pull-right totoc'>To Top</a></h3>
+
+			</div>
+
+			<div class="panel-body">
+
+				<iframe width="1108" height="623" src="https://www.youtube.com/embed/vYdman-MaG0" frameborder="0" allowfullscreen></iframe>
+
+
+
+			</div> <!-- /.panel-body-->
+
+		</div>
+
+	</div><!-- /.Section -->
+
+
+
+	
+
+		<!--- Section -->
+
+	<div class="section">
+
+		<div id="sec-14a">&nbsp;</div>
+
+		<br><br>	
+
+		<div class="panel panel-primary">
+
+			<div class="panel-heading">
+
+				<h3 class='panel-title'>14a. How To Export/Import Your Revolution Sliders  <a href='#toc' class='pull-right totoc'>To Top</a></h3>
+
+			</div>
+
+			<div class="panel-body">
+
+			<br>
+
+				<h4> How To Export Your Revolution Sliders</h4>
+
+				 <p> To Export Your Revolution Sliders open your slider and on bottom of page you will see Import/Export. On tis label click on export and save your slider. </p>
+
+				 <br>
+
+				 <h4> How To Import Your Revolution Sliders</h4>
+
+				 <p>To import slider you need to follow next steps.
+
+<ol>
+
+	<li> Create new slider.</li>
+
+	<li> Pres on 'Edit Slider', go to bottom of page and click on label 'Import/Export' .</li>
+
+	<li> Select your file and click import.</li>
+
+	<li> Save Slider and  Done.</li>
+
+</ol>
+
+				 </p>
+
+				<div class="thumbnail">
+
+					<img src="assets/img/revdemo.png" alt="">
+
+				</div>
+
+			</div> <!-- /.panel-body-->
+
+		</div>
+
+	</div><!-- /.Section -->
+
+	
+
+			<!--- Section -->
+
+	<div class="section">
+
+		<div id="sec-14b">&nbsp;</div>
+
+		<br><br>	
+
+		<div class="panel panel-primary">
+
+			<div class="panel-heading">
+
+				<h3 class='panel-title'>14b. How To Export/Import Your Layer Sliders  <a href='#toc' class='pull-right totoc'>To Top</a></h3>
+
+			</div>
+
+			<div class="panel-body">
+
+			<br>
+
+				<h4> How To Export Your Layer Sliders</h4>
+
+				 <p> To Export Your Layer Sliders go to 'Layer Slider' in your dashboard and on bottom of page you will see Import/Export. Select what slider you need to export and press 'Export' button. </p>
+
+				 <br>
+
+				 <h4> How To Import Your Layer Sliders</h4>
+
+				 <p>To import slider you need to follow next steps.
+
+<ol>
+
+	<li> Go to 'Layer Slider' in your dashboard.</li>
+
+	<li> Go to bottom of page on 'Import/Export' .</li>
+
+	<li> Press on 'Browse..' select your file and click 'Import' button. Done.</li>
+
+</ol>
+
+				 </p>
+
+				<div class="thumbnail">
+
+					<img src="assets/img/layer.png" alt="">
+
+				</div>
+
+			</div> <!-- /.panel-body-->
+
+		</div>
+
+	</div><!-- /.Section -->
+
+	
+
+
+
+
+
+	<!--- Section -->
+
+	<div class="section">
+
+		<div id="sec-15">&nbsp;</div>
+
+		<br><br>	
+
+		<div class="panel panel-primary">
+
+			<div class="panel-heading">
+
+				<h3 class='panel-title'>15. Child Theme <a href='#toc' class='pull-right totoc'>To Top</a></h3>
+
+			</div>
+
+			<div class="panel-body">
+
+				If you are a developer and would want to use Mint as a base to develop your own theme. It's recommended that you use a child theme.
+
+				In other words a child theme is a theme which allows you to extend the main theme or override some of the features it has.
+
+				Every function call in mint is prefixed with a "function_exists" check. That means you can override any function and it will be called instead.
+
+				So basically for example if you would like to add something to the title in the inner header. In your child themes functions.php file you can add a function:
+
+<pre><code>&lt;?php function mint_get_page_title( $title ) {
+
+	echo $title . " / <small>Our custom text</small>";
+
+} ?>
+
+</code></pre>
+
+The function "mint_get_page_title" will be overridden and your function will replace the output instead. As you can see this is a very powerfull feature and the best thing is you don't have to mess with our own code.
+
+You can read more about in the child theme directory.
+
+			</div> <!-- /.panel-body-->
+
+		</div>
+
+	</div><!-- /.Section -->
+
+
+
+
+
+		<!--- Section -->
+
+	<div class="section">
+
+		<div id="sec-16">&nbsp;</div>
+
+		<br><br>	
+
+		<div class="panel panel-primary">
+
+			<div class="panel-heading">
+
+				<h3 class='panel-title'>16. Translation <a href='#toc' class='pull-right totoc'>To Top</a></h3>
+
+			</div>
+
+			<div class="panel-body">
+
+				If you are using a translation plugin you have probably noticed that some words are not being translated.
+
+				Well these are <strong>special keywords</strong> hardcoded in the theme and should be translated using the WordPress internal translate system.
+
+				You can add a translation in your language by using a translation software, for example <a href="http://www.poedit.net/download.php">PoEdit</a>.
+
+				<ul>
+
+					<li>Install and run PoEdit</li>
+
+					<li>In PoEdit open any file from the languages folder (e.g. ru_RU.po)</li>
+
+					
+
+					<li>On the bottom side you will see the original string and below the translated string</li>
+
+					<li>Replace the translated string with your languages string</li>
+
+					<li>Save the file as your language code. For example pl_PL.po (for Polish)</li>
+
+					<li>PoEdit will automatically generate a pl_PL.mo file</li>
+
+					<li>Edit the wp-config.php file and define the WP_LANG constant to the language code you just created</li>
+
+					<li>WPML will automatically use the translation files if you provide them</li>
+
+				</ul>
+
+
+
+				<div class="alert alert-info">
+
+					If by any chance you have translated our theme into your native language please send a copy of the *.mo and *.po file to us at support at 1theme.com
+
+				</div>
+
+			</div> <!-- /.panel-body-->
+
+		</div>
+
+	</div><!-- /.Section -->
+
+
+
+
+
+
+
+	<!--- Section -->
+
+	<div class="section">
+
+		<div id="sec-17">&nbsp;</div>
+
+		<br><br>	
+
+		<div class="panel panel-primary">
+
+			<div class="panel-heading">
+
+				<h3 class='panel-title'>17. FAQ <a href='#toc' class='pull-right totoc'>To Top</a></h3>
+
+			</div>
+
+			<div class="panel-body">
+
+				<strong>Q: How do you create a full width slider?</strong>
+
+				<p>A: <strong><a href="assets/img/mint-elastic.gif" target="_blank"><em>click here to view a gif</em></a></strong>  Create a page and select the page template as "FullWidth Slider". Now add a slider through visual composer. You'll notice that is full width but so is the whole content. To fix this, add the class "mint-elastic" to the row and the content will be placed in the center.</p>
+
+
+
+
+				<strong>Q: How to make an element fullwidth?</strong>
+
+				<p>
+
+					<strong><a href="assets/img/fullwidth.gif" target="_blank"><em>click here to view a gif</em></a></strong>  In visual composer add rows with elements you would like to make fullwidth. Now add the class "fullwidth" to the row. This works for most elements including Google Maps.
+
+				</p>
+
+
+
+				<strong>Q: How to enable Visual Composer for Portfolio Items or another custom post type</strong>
+
+				<p>
+
+					A: Go to Settings &rarr; Visual Composer. In the General Settings tab, find Content Types and tick all content types you would want. Then save your settings
+
+				</p>
+
+			</div> <!-- /.panel-body-->
+
+		</div>
+
+	</div><!-- /.Section -->
+
+
+
+
+
+			<!--- Section -->
+
+	<div class="section">
+
+		<div id="sec-18">&nbsp;</div>
+
+		<br><br>	
+
+		<div class="panel panel-primary">
+
+			<div class="panel-heading">
+
+				<h3 class='panel-title'>18. Credits <a href='#toc' class='pull-right totoc'>To Top</a></h3>
+
+			</div>
+
+			<div class="panel-body">
+
+				<p>Here is a list of stuff we have used to create this project. We are very grateful to each and everyone who allowed us to use their stuff.</p>
+
+
+
+				<div class="row">
+
+					
+
+					<div class="col-sm-3">
+
+						<h4>Thirdparty Items</h4>
+
+						<ul>
+
+							<li><a href="http://jquery.com/">jQuery</a></li>
+
+							<li><a href="http://bxslider.com/">bxSlider</a></li>
+
+							<li><a href="https://github.com/imakewebthings/jquery-waypoints/">jQuery Waypoints</a></li>
+
+							<li><a href="http://www.jacklmoore.com/colorbox/">ColorBox</a></li>
+
+							<li><a href="http://fancybox.net/">FancyBox <em>(MIT version)</em></a> </li>
+
+							<li><a href="http://www.infinite-scroll.com/">Infinite Scroll</a></li>
+
+							<li><a href="http://lokeshdhakar.com/projects/lightbox2/">LightBox 2</a></li>
+
+							<li><a href="http://www.no-margin-for-errors.com/projects/prettyphoto-jquery-lightbox-clone/">prettyPhoto</a></li>
+
+							<li><a href="https://github.com/tylercraft/jQuery-Retina">jQuery-Retina</a></li>
+
+							<li><a href="https://github.com/GBKS/Wookmark-jQuery">Wookmark</a></li>
+
+							<li><a href="http://keith-wood.name/countdown.html">jQuery Countdown</a></li>
+
+							<li><a href="http://www.createjs.com/#!/PreloadJS">PreloadJS</a></li>
+
+							<li><a href="http://getbootstrap.com/">Bootstrap</a></li>
+
+							<li><a href="http://www.famfamfam.com/lab/icons/silk/">Silk Icons</a></li>
+
+							<li><a href="http://entypo.com/">Entypo pictograms <br /> by Daniel Bruce</a></li>
+
+							<li><a href="https://github.com/gilbitron/Nivo-Slider">Nivo Slider</a></li>
+
+						</ul>
+
+					</div>
+
+
+
+					<div class="col-sm-3">
+
+						<h4>Plugins</h4>
+
+						<ul>
+
+							<li><a href="http://contactform7.com/">Contact Form 7</a></li>
+
+							<li><a href="http://wordpress.org/plugins/latest-tweets-widget/">Latest Tweets</a></li>
+
+							<li><a href="http://dannyvankooten.com/mailchimp-for-wordpress/">MailChimp for WordPress Lite</a></li>
+
+							<li><a href="http://kovshenin.com/wordpress/plugins/quick-flickr-widget/">Quick Flickr Widget</a></li>
+
+							<li><a href="http://www.themepunch.com/codecanyon/revolution_wp/">Revolution Slider</a></li>
+
+							<li><a href="http://codecanyon.net/item/layerslider-responsive-wordpress-slider-plugin-/1362246">Layer Slider</a></li>
+
+							<li><a href="http://www.woothemes.com/woocommerce/">WooCommerce</a></li>
+
+							<li><a href="http://vc.wpbakery.com/">WPBakery Visual Composer</a></li>
+
+							<li><a href="http://bbpress.org/">BBPress</a></li>
+
+							<li><a href="http://www.viper007bond.com/wordpress-plugins/regenerate-thumbnails/">Regenerate Thumbnails</a></li>
+
+							<li><a href="http://wordpress.org/plugins/page-list/">Sitemap</a></li>
+
+							<li><a href="http://wpmegamenu.com/">UberMenu</a></li>
+
+						</ul>
+
+					</div>
+
+
+
+					
+
+
+
+					<div class="col-sm-3">
+
+						<h4>Thanks to</h4>
+
+						<ul>
+
+							<li><a href="http://themeforest.net/user/gfxpartner">GfxPartner</a></li>
+
+							<li><a href="http://entypo.com/">Daniel Bruce</a></li>
+
+							<li><a href="http://creattica.com">Images Courtesy of Creattica.com</a></li>
+
+						</ul>
+
+
+
+						<h4>Others</h4>
+
+						<ul>
+
+							<li><a href="http://code.google.com/p/cssmin/">CSS Min</a></li>
+
+							<li><a href="http://leafo.net/lessphp/">LESS PHP Compiler</a></li>
+
+							<li><a href="https://github.com/rilwis/meta-box/">rilwis/metabox</a></li>
+
+							<li><a href="https://github.com/thomasgriffin/TGM-Plugin-Activation/">TGM Plugin Activation</a></li>
+
+							<li><a href="https://github.com/syamilmj/Options-Framework">SMOF <em>(modified)</em></a></li>
+
+							<li><a href="https://github.com/zenger/">Zenger Snippets</a></li>
+
+							<li><a href="https://github.com/riseledger/">Rise Ledger Snippets</a></li>
+
+						</ul>
+
+					</div>
+
+
+
+					<div class="col-sm-3">
+
+						<h4>In this documentation</h4>
+
+						<ul>
+
+							<li><a href="http://getbootstrap.com/">Bootstrap</a></li>
+
+							<li><a href="http://bootswatch.com/flatly/">Bootswatch Flatly</a></li>
+
+							<li><a href="http://highlightjs.org/">Highlight JS</a></li>
+
+						</ul>
+
+					</div>
+
+				</div>
+
+				
+
+
+
+				<h1 class="text-center"><em>And thank you for supporting us! Rock on!</em></h1>
+
+				
+
+			</div> <!-- /.panel-body-->
+
+		</div>
+
+	</div><!-- /.Section -->
+
+
+
+
+
+
+
+</div> <!-- /.container -->
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+	<script>
+
+	jQuery(function() {
+
+		try {
+
+			hljs.initHighlightingOnLoad();	
+
+		} catch(ex) {}
+
+	});
+
+	</script>
+
+</body>
+
+</html>

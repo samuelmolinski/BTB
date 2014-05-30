@@ -1,0 +1,44 @@
+body.tpl-coming-soon, body.tpl-compact {background-color:@coming-soon-bg;}
+.coming-soon, .compact {}
+.coming-soon-header, .compact-header {width:100%;height:305px;position:relative;
+background-image: -moz-radial-gradient(50% 100%, ellipse farthest-side, lighten(@coming-soon-bg, 12%), @coming-soon-bg 30%);
+background-image: -webkit-radial-gradient(50% 100%, ellipse farthest-side, lighten(@coming-soon-bg, 12%), @coming-soon-bg 30%);
+background-image: -o-radial-gradient(50% 100%, ellipse farthest-side, lighten(@coming-soon-bg, 12%), @coming-soon-bg 30%);
+background-image: -ms-radial-gradient(50% 100%, ellipse farthest-side, lighten(@coming-soon-bg, 12%), @coming-soon-bg 30%);
+background-image: radial-gradient(50% 100%, ellipse farthest-side, lighten(@coming-soon-bg, 12%), @coming-soon-bg 30%);
+}
+	.coming-soon-logo img, .compact-logo img {overflow: auto;margin: auto;position: absolute;left: 0; bottom: 50px; right: 0;}
+.coming-soon-body{background-color: @white;padding:45px 0;text-align:center}
+.coming-soon-body-inside {}
+	.coming-soon-title, .compact-title {margin-bottom:10px}
+.coming-soon-caption, .compact-caption {}
+	.coming-copyright{color:@white;margin-top:25px}
+
+// countdown
+.countdown_row {overflow: hidden;display:table;width:auto;margin:0 auto;border-spacing: 8px 0;padding-bottom:25px;border-bottom:1px solid @coming-soon-separator;}
+.countdown_section {color:@hcolor;width:73px;height:100px;
+display: inline-block;
+margin:0 4.5px;
+position:relative;
+padding-top:55px
+}
+.countdown_section:after {content:":";color:@countdown-color1;font-size:40px;display:inline-block;position:absolute;right:-9px;top:20px;}
+span:last-child.countdown_section:after {content:""}
+.countdown_amount {width:73px;height:73px;display:block;text-align:center;line-height: 73px;font-size: 40px;color:@white;position:absolute;top:0;left:0;
+background: @countdown-color1;
+background: -moz-linear-gradient(top,  @countdown-color1 0%, @countdown-color1 50%, @countdown-color2 50%, @countdown-color2 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,@countdown-color1), color-stop(50%,@countdown-color1), color-stop(50%,@countdown-color2), color-stop(100%,@countdown-color2));
+background: -webkit-linear-gradient(top,  @countdown-color1 0%,@countdown-color1 50%,@countdown-color2 50%,@countdown-color2 100%);
+background: -o-linear-gradient(top,  @countdown-color1 0%,@countdown-color1 50%,@countdown-color2 50%,@countdown-color2 100%);
+background: -ms-linear-gradient(top,  @countdown-color1 0%,@countdown-color1 50%,@countdown-color2 50%,@countdown-color2 100%);
+background: linear-gradient(to bottom,  @countdown-color1 0%,@countdown-color1 50%,@countdown-color2 50%,@countdown-color2 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='@countdown-color1', endColorstr='@countdown-color2',GradientType=0 );
+}
+
+.coming-soon-social li:first-child, .compact-social li:first-child {margin-left:0}
+
+// newsletter
+.newsletter-wrapper {width:308px;position:relative;display:inline-block}
+.newsletter-wrapper form {position:relative;display:block;overflow: hidden}
+.newsletter-wrapper input {width:230px !important;height:40px !important;float:left}
+.newsletter-wrapper input#mailchimp-submit {width:78px !important;float:left}

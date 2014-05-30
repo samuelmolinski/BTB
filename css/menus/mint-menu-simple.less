@@ -1,0 +1,101 @@
+@import "../variables.less";
+
+// menu block
+.main-menu {display:inline-block;font-family:@font-family-menu}
+.main-menu > li {position:relative}
+.main-menu a {display:block;padding:0 20px;color:@dcolor2-light;font-size:@font-size-menu;}
+.main-menu ul.l-inline > li:hover > a, .main-menu ul.l-inline > li.current-menu-item > a {background-color:@dcolor2-dark;color:@white;}
+
+// menu in header assets
+.header-assets .main-menu {line-height:normal;vertical-align: text-bottom;}
+.header-assets .main-menu li {margin-right:40px;}
+.header-assets .main-menu a {color:@tcolor;padding:0px;}
+.header-assets .main-menu ul.l-inline > li:hover > a, .header-assets .main-menu ul.l-inline > li.current-menu-item > a {background-color:transparent;color:@dcolor;}
+
+.header-assets .menu-center li {margin:0 20px;} // on header 5 style
+
+.main-menu .header6 {line-height:@line-height-base - 2;} // on header 6
+.main-menu .header6 a {border-top:2px solid transparent;}// on header 6
+.main-menu .header6 > li:hover > a, .main-menu .header6 > li.current-menu-item > a {border-top:2px solid @dcolor;} // on header 6
+
+// fix header 4
+.hv4 .sub-menu {text-align:left;}
+.hv4 .sub-menu li {margin-left:0;margin-right:0;}
+.hv4 .sub-menu li a {padding-right:80px;padding-left:35px}
+
+// fix header 5
+.hv5 .sub-menu {text-align:left;}
+.hv5 .sub-menu li {margin-left:0;margin-right:0;}
+.hv5 .sub-menu li a {padding-right:80px;padding-left:35px}
+
+.hv5 li.mint-extended .sub-menu {margin-top:-16px}
+.hv5 li.mint-extended .sub-menu .sub-menu {margin-top:0px}
+
+// rewrite main menu for submenu placement correct
+.main-menu li {position:relative}
+
+.main-menu li:hover > .sub-menu {display:block}
+
+// sub menu of big menu
+.sub-menu {display:none;position:absolute;top:100%;left:0;z-index:100;width:auto;background-color:@white;border:1px solid #eeeeee;border-top:3px solid @dcolor-dark;padding-bottom:10px}
+.sub-menu li {float:none;width:100%;line-height:35px;}
+.sub-menu a {color:@tcolor;font-size:@font-size-submenu;white-space: nowrap;padding-right:80px;padding-left:35px}
+.sub-menu li:before {content:"";position:absolute;left:7px;top:50%;margin-top:-2.5px;width:5px;height:5px;border-radius:50%;background-color:@tcolor;margin-left:17px}
+.sub-menu li:hover a, .sub-menu li.current-menu-item a {background:@inner-bg-color;color:@hcolor}
+.sub-menu li:hover:before {background-color:@dcolor-dark}
+
+// infinite submenu
+ul.sub-menu ul.sub-menu {display:none;left:100%;top:0;border-top:1px solid #eeeeee}
+ul.sub-menu ul.sub-menu a {background:none;color:@tcolor}
+ul.sub-menu ul.sub-menu li:hover a {background:@inner-bg-color;color:@hcolor}
+
+// rewrite for mega menu        **************************************************************************************************/
+.main-menu li.mint-extended {position:static}
+.main-menu li.mint-extended .sub-menu {width:100%;}
+.main-menu li.mint-extended .sub-menu a {padding-left:25px;padding-right:20px}
+.main-menu li.mint-extended .sub-menu li {float:left;line-height:40px;padding-top:10px}
+.main-menu li.mint-extended .sub-menu li:before {display:none}
+.main-menu li.mint-extended .sub-menu li a {color:@hcolor;font-size:@font-size-menu;background:none}
+
+// columns extended
+.main-menu li.mint-extended.mint-menu-col2 .sub-menu li {width:50%}
+.main-menu li.mint-extended.mint-menu-col2 .sub-menu li:nth-child(2n + 1) {clear:left}
+.main-menu li.mint-extended.mint-menu-col3 .sub-menu li {width:33.33333333333333%}
+.main-menu li.mint-extended.mint-menu-col3 .sub-menu li:nth-child(3n + 1) {clear:left}
+.main-menu li.mint-extended.mint-menu-col4 .sub-menu li {width:25%}
+.main-menu li.mint-extended.mint-menu-col4 .sub-menu li:nth-child(4n + 1) {clear:left}
+.main-menu li.mint-extended.mint-menu-col5 .sub-menu li {width:20%}
+.main-menu li.mint-extended.mint-menu-col5 .sub-menu li:nth-child(5n + 1) {clear:left}
+.main-menu li.mint-extended.mint-menu-col6 .sub-menu li {width:16.66666666666667%}
+.main-menu li.mint-extended.mint-menu-col6 .sub-menu li:nth-child(6n + 1) {clear:left}
+
+// third level
+.main-menu li.mint-extended .sub-menu .sub-menu {position:static;left:0;top:-10px;border:none;width:100%;display:block;}
+.main-menu li.mint-extended .sub-menu .sub-menu li {float:none !important;width:100%;line-height: 35px;padding-top:0px}
+.main-menu li.mint-extended .sub-menu .sub-menu li a {color:@tcolor;padding-left:38px;font-size:@font-size-submenu}
+.main-menu li.mint-extended .sub-menu .sub-menu li:hover a, 
+.main-menu li.mint-extended .sub-menu .sub-menu li.current-menu-item a 
+{color:@hcolor;background:@inner-bg-color;}
+
+.main-menu li.mint-extended .sub-menu .sub-menu li:before {display:block;margin-left:18px}
+
+// display menu bullets
+.mint-menu-hide-bullets li:before {display:none !important}
+
+// Menu opacity
+header.stuck{opacity: @menu-opacity;}
+//menu Shadow
+.menu-shadow{	
+margin-bottom: 0px!important;
+  padding-bottom: 0px!important;
+  border-bottom: 0px!important;
+  -o-box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+  -moz-box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+  -webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+    box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+}
+.menu-shadow-flat{
+	-webkit-box-shadow: inset 0px  -4px  0px @dcolor2-dark;
+    -moz-box-shadow:inset 0px  -4px 0px @dcolor2-dark; 
+    box-shadow:inset 0px  -4px  0px @dcolor2-dark;
+}
